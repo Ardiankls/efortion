@@ -1,0 +1,25 @@
+@import url("font/VenusRising-Regular.ttf");
+
+@font-face{
+    font-family: VenusRising;
+    src: url("font/VenusRising-Regular.ttf") format("opentype");
+}
+html {
+    
+    
+}
+body{
+    
+    background-image: url(img/BackgroundEfortion.png);
+    overflow:hidden; 
+    font-family: VenusRising;
+/*    color: white !important;*/
+    
+}
+.nav-link{
+    
+    
+}
+.navBrand{
+    width: 20vw;
+}
