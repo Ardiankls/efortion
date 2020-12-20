@@ -10,6 +10,7 @@
   src: url("font/GreycliffCF-HeavyOblique.otf") format("opentype");
 }
 html {
+  overflow-y: hidden;
 }
 body {
   background-image: url(img/BackgroundEfortion.png);
@@ -26,13 +27,13 @@ body {
 .desc {
   font-family: GreycliffHeavyOblique;
 }
-.glow-e{
-    background: -webkit-linear-gradient(#f2b664, #f8d45c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: glow-e 2s ease-in-out infinite alternate;
-    -moz-animation: glow-e 2s ease-in-out infinite alternate;
-    animation: glow-e 2s ease-in-out infinite alternate;
+.glow-e {
+  background: -webkit-linear-gradient(#f2b664, #f8d45c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: glow-e 2s ease-in-out infinite alternate;
+  -moz-animation: glow-e 2s ease-in-out infinite alternate;
+  animation: glow-e 2s ease-in-out infinite alternate;
 }
 @-webkit-keyframes glow-e {
   from {
@@ -59,13 +60,13 @@ body {
 
 .iso {
   width: 20vw;
-  transition: 0.3s;
+  transition: 0.5s;
   animation: jolt 2s linear infinite;
   animation-direction: alternate;
 }
 .iso:hover {
   width: 21vw;
-  transition: 0.3s;
+  transition: 0.5s;
   transform: scaleY(1);
 }
 @keyframes jolt {
@@ -73,6 +74,6 @@ body {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
 }
