@@ -85,3 +85,9 @@ body {
     transform: translateY(-15px);
   }
 }
+
+/*Seminar Page*/
+.sec{
+    color: white;
+    border: solid white;
+}
