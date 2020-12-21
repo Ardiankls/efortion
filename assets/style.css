@@ -24,25 +24,21 @@ body {
   background-image: url(img/BackgroundEfortion.png);
   background-size: cover;
   background-repeat: no-repeat;
-
   font-family: VenusRising;
-  /*    color: white !important;*/
 }
 
-/*nav*/
+/* !nav*/
+
 .navBrand {
   width: 20vw;
 }
 
-
-
-.nav-link:hover{
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
-    transition: 0.5s;
-        
+.nav-link:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  transition: 0.5s;
 }
 
-/*Home page*/
+/* !Homepage*/
 
 .desc {
   font-family: GreycliffHeavyOblique;
@@ -55,29 +51,12 @@ body {
   -moz-animation: glow-e 2s ease-in-out infinite alternate;
   animation: glow-e 2s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow-e {
-  from {
-    text-shadow: 0 0 5px #f8d45c, 0 0 10px #f8d45c;
-  }
-  to {
-    text-shadow: 0 0 10px #fbbd4c, 0 0 40px #fbbd4c;
-  }
-}
 .glow {
   text-align: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   -moz-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #fff;
-  }
-}
-
 .iso {
   width: 20vw;
   transition: 0.5s;
@@ -89,6 +68,25 @@ body {
   transition: 0.5s;
   transform: scaleY(1);
 }
+
+/* ?keyframes */
+
+@-webkit-keyframes glow-e {
+  from {
+    text-shadow: 0 0 5px #f8d45c, 0 0 10px #f8d45c;
+  }
+  to {
+    text-shadow: 0 0 10px #fbbd4c, 0 0 40px #fbbd4c;
+  }
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+  }
+}
 @keyframes jolt {
   0% {
     transform: translateY(0);
@@ -98,8 +96,8 @@ body {
   }
 }
 
-/*Seminar Page*/
-.sec{
-    color: white;
-    border: solid white;
+/* !Seminar Page*/
+.sec {
+  color: white;
+  border: solid white;
 }
