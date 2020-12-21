@@ -28,6 +28,8 @@ body {
   font-family: VenusRising;
   /*    color: white !important;*/
 }
+
+/*nav*/
 .navBrand {
   width: 20vw;
 }
@@ -39,6 +41,8 @@ body {
     transition: 0.5s;
         
 }
+
+/*Home page*/
 
 .desc {
   font-family: GreycliffHeavyOblique;
