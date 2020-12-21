@@ -9,6 +9,14 @@
   font-family: GreycliffHeavyOblique;
   src: url("font/GreycliffCF-HeavyOblique.otf") format("opentype");
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
 html {
   overflow-y: hidden;
 }
@@ -28,7 +36,7 @@ body {
   font-family: GreycliffHeavyOblique;
 }
 .glow-e {
-  background: -webkit-linear-gradient(#f2b664, #f8d45c);
+  background: -webkit-linear-gradient(left, #f8d45c, #f2b664);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: glow-e 2s ease-in-out infinite alternate;
@@ -40,7 +48,7 @@ body {
     text-shadow: 0 0 5px #f8d45c, 0 0 10px #f8d45c;
   }
   to {
-    text-shadow: 0 0 10px #f8d45c, 0 0 40px #f8d45c;
+    text-shadow: 0 0 10px #fbbd4c, 0 0 40px #fbbd4c;
   }
 }
 .glow {
